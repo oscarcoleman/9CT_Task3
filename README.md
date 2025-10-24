@@ -1,0 +1,21 @@
+# 9CT_Task3
+## Identifying and Defining
+### Identifying a Need
+Game will adress bored workers and students who want to mindlessly engage in online gambling.
+### Requirements Outline
+- Inputs: Player will enter number they are betting on, press 'space' button to initiate dice rolling, and interact with settings through number keys.
+- Processing: The computer must role a six-sided dice on command and count up money earnt.
+- Outputs: The project will output a bank balance and an image of a rolling dice.
+- Transmission: No, it will be self-contained.
+- Storage: The dice output and the bank balance.
+### Functional and Non-Functional Requirements
+#### Functional
+- Rolls dice when 'space' button is pressed
+- Output is visually displayed on screen
+- Bank balance increases if predicted number and actual number match, and decrease if not so
+#### Non-Functional
+- GUI is simple and easily understandable
+- Basic keyboard commands
+### Social and Ethical Issues
+- Positive: Bored students and workers will be relieved.
+- Negative: Authorities will have off-task subjects
