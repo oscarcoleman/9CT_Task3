@@ -19,3 +19,10 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 ### Social and Ethical Issues
 - Positive: Bored students and workers will be relieved.
 - Negative: Authorities will have off-task subjects
+## Researching and Planning
+### Evaluation of Existing Ideas
+| Plus                   | Minus                                | Implications                                  |
+|------------------------|--------------------------------------|-----------------------------------------------|
+|                        |                                      |                                               |
+|                        |                                      |                                               |
+|                        |                                      |                                               |
