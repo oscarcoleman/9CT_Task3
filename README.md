@@ -53,4 +53,4 @@ ELSE:
 END Scenario 1
 ```
 ### Storyboard
-![Storyboard](Screenshot 2025-10-27 115554.png)
+![Storyboard](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-27%20115554.png)
