@@ -28,7 +28,7 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 |                        |                                      |                                               |
 ### Pseudocode and Flowcharts
 #### Pseudocode
-Scenario 1
+General Scenario
 ```
 BEGIN Scenario 1
 
