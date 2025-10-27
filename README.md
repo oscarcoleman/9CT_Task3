@@ -56,6 +56,10 @@ ELSE:
 END Scenario 1
 ```
 ### Storyboards
-Whole game story:
+Whole game storyboard:
 
 ![Whole_game_story](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20103823.png)
+
+Scene storyboards:
+
+![Collection of scene storyboards](https://docs.google.com/document/d/14SY9hb0jENioiOMLpEPPDK1FQ1BT8hOAiR1pMQecT1Q/edit?usp=sharing)
