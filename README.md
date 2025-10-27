@@ -26,3 +26,29 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 |                        |                                      |                                               |
 |                        |                                      |                                               |
 |                        |                                      |                                               |
+### Pseudocode and Flowcharts
+#### Pseudocode
+Scenario 1
+```
+BEGIN Scenario 1
+
+DECLARE ButtonPressed = FALSE
+DECLARE BankBalance = x
+
+IF ButtonPressed == TRUE:
+  RUN SelectSettings
+
+DEF SelectSettings:
+  INPUT(num_to_gamble)
+  INPUT(predicted_dice_num)
+  RUN DiceRoll
+
+IF DiceRoll_num == predicted_dice_num:
+  PRINT('YOU WIN!')
+  BankBalance += 2 * num_to_gamble
+ELSE:
+  PRINT('YOU LOSE')
+  BankBalance -= 2 * num_to_gamble
+
+END Scenario 1
+```
