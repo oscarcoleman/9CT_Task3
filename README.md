@@ -61,3 +61,7 @@ Whole game storyboard:
 ![Whole_game_story](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20103823.png)
 
 Scene storyboards:
+
+![Scene Storyboard 1](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20105121.png)
+
+![Scene storyboard 2](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20105134.png)
