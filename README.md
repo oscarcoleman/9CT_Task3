@@ -43,6 +43,9 @@ DEF SelectSettings:
   INPUT(predicted_dice_num)
   RUN DiceRoll
 
+DEF DiceRoll:
+  Roll dice randomly
+
 IF DiceRoll_num == predicted_dice_num:
   PRINT('YOU WIN!')
   BankBalance += 2 * num_to_gamble
@@ -53,4 +56,3 @@ ELSE:
 END Scenario 1
 ```
 ### Storyboard
-![Storyboard](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-27%20115554.png)
