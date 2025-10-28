@@ -55,6 +55,8 @@ ELSE:
 
 END Scenario 1
 ```
+#### Flowcharts
+
 ### Storyboards
 Whole game storyboard:
 
