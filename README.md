@@ -56,6 +56,7 @@ ELSE:
 END Scenario 1
 ```
 #### Flowcharts
+![Flowchart](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20110203.png)
 
 ### Storyboards
 Whole game storyboard:
