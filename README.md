@@ -68,3 +68,7 @@ Scene storyboards:
 ![Scene Storyboard 1](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20105121.png)
 
 ![Scene storyboard 2](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20105134.png)
+
+### Gantt Chart
+
+![Gantt Chart](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20110424.png)
