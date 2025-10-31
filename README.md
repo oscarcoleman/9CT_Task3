@@ -45,28 +45,69 @@ General Scenario
 ```
 BEGIN Scenario 1
 
-DECLARE ButtonPressed = FALSE
-DECLARE BankBalance = x
+DECLARE LoanButtonPressed = FALSE
+DECLARE HelpButtonPressed = FALSE
+DECLARE PlayButtonPressed = FALSE
+DECLARE BankBalance = 100000
+DECALRE JailBalance = 100000
+DECLARE InJail = FALSE
 
-IF ButtonPressed == TRUE:
-  RUN SelectSettings
+IF InJail == FALSE:
+  IF PlayButtonPressed == TRUE:
+    RUN SelectSettings
+  
+  ELIF HelpButtonPressed == TRUE:
+    Show "How To Play" Guide
+  
+  ELSE LoanButtonPressed == TRUE:
+    INPUT(DesiredLoanAmount)
+    BankBalance += DesiredLoanAmount
+  
+  DEF SelectSettings:
+    INPUT(num_to_gamble)
+    INPUT(predicted_dice_num)
+    RUN DiceRoll
+  
+  DEF DiceRoll:
+    Roll dice randomly
+  
+  IF DiceRoll_num == predicted_dice_num:
+    PRINT('YOU WIN!')
+    BankBalance += 2 * num_to_gamble
+  ELSE:
+    PRINT('YOU LOSE')
+    BankBalance -= 2 * num_to_gamble
+    IF BankBalance <= -100000
+      InJail = TRUE
 
-DEF SelectSettings:
-  INPUT(num_to_gamble)
-  INPUT(predicted_dice_num)
-  RUN DiceRoll
-
-DEF DiceRoll:
-  Roll dice randomly
-
-IF DiceRoll_num == predicted_dice_num:
-  PRINT('YOU WIN!')
-  BankBalance += 2 * num_to_gamble
-ELSE:
-  PRINT('YOU LOSE')
-  BankBalance -= 2 * num_to_gamble
-
-END Scenario 1
+IF InJail == TRUE:
+  IF PlayButtonPressed == TRUE:
+    RUN SelectSettings
+  ELIF HelpButtonPressed == TRUE:
+    Show "How To Play" Guide
+  ELSE LoanButtonPressed == TRUE:
+    INPUT(DesiredLoanAmount)
+    JailBalance += DesiredLoanAmount
+  
+  DEF SelectSettings:
+    INPUT(num_to_gamble)
+    INPUT(predicted_dice_num)
+    RUN DiceRoll
+  
+  DEF DiceRoll:
+    Roll dice randomly
+  
+  IF DiceRoll_num == predicted_dice_num:
+    PRINT('YOU WIN!')
+    JailBalance += 2 * num_to_gamble
+    IF JailBalance >= 500000
+      PRINT('YOU BAILED YOURSELF OUT OF JAIL')
+      InJail = FALSE
+    ELSE:
+      PRINT('YOU LOSE')
+      JailBalance -= 2 * num_to_gamble
+      IF JailBalance <= -100000
+        END Game
 ```
 #### Flowcharts
 ![Flowchart](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20110203.png)
