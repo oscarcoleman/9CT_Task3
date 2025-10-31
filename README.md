@@ -21,11 +21,12 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 - Negative: Authorities will have off-task subjects
 ## Researching and Planning
 ### Evaluation of Existing Ideas
-| Plus                   | Minus                                | Implications                                  |
-|------------------------|--------------------------------------|-----------------------------------------------|
-|                        |                                      |                                               |
-|                        |                                      |                                               |
-|                        |                                      |                                               |
+| Game                   | PLus                                 | Minus                                         | Implications  |
+|------------------------|--------------------------------------|-----------------------------------------------|---------------|
+| Rainbet Dice Gambling
+![Rainbet](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20124543.png)|                                      |                                               |               |
+|                        |                                      |                                               |               |
+|                        |                                      |                                               |               |
 ### Pseudocode and Flowcharts
 #### Pseudocode
 General Scenario
