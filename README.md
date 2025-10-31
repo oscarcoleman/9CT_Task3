@@ -115,7 +115,7 @@ IF InJail == TRUE:
 ### Storyboards
 Whole game storyboard:
 
-![Whole_game_story](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-28%20103823.png)
+![Whole_game_story](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20132856.png)
 
 Scene storyboards:
 
