@@ -22,11 +22,23 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 ## Researching and Planning
 ### Evaluation of Existing Ideas
 | Game                   | PLus                                 | Minus                                         | Implications  |
-|------------------------|--------------------------------------|-----------------------------------------------|---------------|
-| Rainbet Dice Gambling
-![Rainbet](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20124543.png)|                                      |                                               |               |
-|                        |                                      |                                               |               |
-|                        |                                      |                                               |               |
+|------------------------|--------------------------------------|----------------------------------------------------|---------------|
+| Rainbet Dice Gambling    | Simple UI                            | Boring and static graphics, no image of dice     | Game is functional and fulfills its aims, however is unlikely to captivate for any great length of time.              |
+| Fake Stake Dice Gambling | As above                             | As above                                         | As above, thus failing to distinguish itself amongst competitors              |
+| SPRIBE Dice Gambling     | Simple UI, colourful graphics        | Somewhat overwhelming graphics, no image of dice | Game is functional and somewhat interesting, however still situates it as no more than a colourful alternative.              |
+#### Images
+Rainbet:
+
+![Rainbet](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20124543.png)
+
+Fake Stake:
+
+![Fake Stake](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20124413.png)
+
+SPRIBE:
+
+![SPRIBE](https://github.com/oscarcoleman/9CT_Task3/blob/main/Screenshot%202025-10-31%20124503.png)
+
 ### Pseudocode and Flowcharts
 #### Pseudocode
 General Scenario
