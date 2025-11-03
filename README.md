@@ -17,8 +17,7 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 - GUI is simple and easily understandable
 - Basic keyboard commands
 ### Social and Ethical Issues
-- Positive: Bored students and workers will be relieved.
-- Negative: Authorities will have off-task subjects
+The overall social impact of this game will be minimal, although I would hope it provides some relief and enjoyment to bored workers and students. On the downside, authorities will have off-task subjects, but that much is so in just about any case.
 ## Researching and Planning
 ### Evaluation of Existing Ideas
 | Game                   | PLus                                 | Minus                                         | Implications  |
