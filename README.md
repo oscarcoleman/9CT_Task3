@@ -6,7 +6,7 @@ Game will adress bored workers and students who want to mindlessly engage in onl
 - Inputs: Player will enter number they are betting on, press 'space' button to initiate dice rolling, and interact with settings through number keys.
 - Processing: The computer must role a six-sided dice on command and count up money earnt.
 - Outputs: The project will output a bank balance and an image of a rolling dice.
-- Transmission: No, it will be self-contained.
+- Transmission: It will be self-contained.
 - Storage: The dice output and the bank balance.
 ### Functional and Non-Functional Requirements
 #### Functional
