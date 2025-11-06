@@ -48,7 +48,7 @@ DECLARE LoanButtonPressed = FALSE
 DECLARE HelpButtonPressed = FALSE
 DECLARE PlayButtonPressed = FALSE
 DECLARE BankBalance = 100000
-DECALRE JailBalance = 100000
+DECLARE JailBalance = 100000
 DECLARE InJail = FALSE
 
 IF InJail == FALSE:
