@@ -15,12 +15,17 @@ contract UserManagement {
 
     event UserCreated(address userAddress, string username);
 
-    function create_user(string memory _username) public {
+    function create_user(string memory _username) external {
         users[msg.sender] = User(_username, 100000, 0);
         emit UserCreated(msg.sender, _username);
     }
 
-    function set_balance(uint _new_balance) public {
+    function get_user(address _userAddress) external view returns (string memory, uint, uint) {
+        User memory user = users[_userAddress];
+        return(user.username, user.mock_balance, user.balance);
+    }
+
+    function set_balance(uint _new_balance) internal {
         // upload crypto to balance from external wallet
     }
 }
