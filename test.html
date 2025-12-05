@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Test HTML</title>
+    </head>
+    <body>
+        <div id="app"></div>
+        <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"> </script>
+        <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"> </script>
+        <script src="https://unpkg.com/@babel/standalone@7.28.5/babel.min.js"> </script>
+         <script type="text/babel">
+            function Header({title}) {
+                return <h1>{title}</h1>;
+            }
+            
+            function HomePage() {
+                const [likes, setLikes] = React.useState(0);
+
+                return (
+                    <div>
+                        <Header title="Header"/>
+                        <button onClick={() => setLikes(likes + 1)}>
+                            Likes {likes}
+                        </button>
+                    </div>
+                );
+            }
+
+            const rootElement = document.getElementById("root");
+            const root = ReactDOM.createRoot(app);
+            root.render(<HomePage />);
+         </script>
+    </body>   
+</html>
