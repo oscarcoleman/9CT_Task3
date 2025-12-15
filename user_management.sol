@@ -1,31 +1,60 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
+
 
 contract UserManagement {
-    
-    address public userAddress;
 
-    mapping(address => User) public users;
 
-    struct User {
-        string username;
-        uint mock_balance;
-        uint balance;
-    }
+struct User {
+string username;
+uint256 mockBalance;
+uint256 balance;
+bool exists;
+}
 
-    event UserCreated(address userAddress, string username);
 
-    function create_user(string memory _username) external {
-        users[msg.sender] = User(_username, 100000, 0);
-        emit UserCreated(msg.sender, _username);
-    }
+mapping(address => User) private users;
 
-    function get_user(address _userAddress) external view returns (string memory, uint, uint) {
-        User memory user = users[_userAddress];
-        return(user.username, user.mock_balance, user.balance);
-    }
 
-    function set_balance(uint _new_balance) internal {
-        // upload crypto to balance from external wallet
-    }
+event UserCreated(address indexed user, string username);
+
+
+function createUser(string calldata _username) external {
+require(!users[msg.sender].exists, "User already exists");
+require(bytes(_username).length > 0, "Username required");
+
+
+users[msg.sender] = User({
+username: _username,
+mockBalance: 100_000,
+balance: 0,
+exists: true
+});
+
+
+emit UserCreated(msg.sender, _username);
+}
+
+
+function getUser(address _user)
+external
+view
+returns (string memory, uint256, uint256, bool)
+{
+User memory u = users[_user];
+return (u.username, u.mockBalance, u.balance, u.exists);
+}
+
+
+// example future hook for games
+function updateMockBalance(int256 delta) external {
+require(users[msg.sender].exists, "User not found");
+
+
+if (delta > 0) {
+users[msg.sender].mockBalance += uint256(delta);
+} else {
+users[msg.sender].mockBalance -= uint256(-delta);
+}
+}
 }
